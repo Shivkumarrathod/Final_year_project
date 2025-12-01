@@ -65,12 +65,12 @@ export default function Sidebar() {
       </div>
 
       {/* USER ICON */}
-      <motion.div
+      <motion.a href="/profile"
         whileHover={{ scale: 1.15 }}
         className="p-3 mx-auto rounded-xl bg-neutral-700 text-neutral-300 cursor-pointer"
       >
         <User size={22} />
-      </motion.div>
+      </motion.a>
     </motion.aside>
   );
 }
